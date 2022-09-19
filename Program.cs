@@ -37,7 +37,7 @@ string[] CreatNewArrayLessThreeElements(string[] str)
     {
         if (str[i].Length <= 3)
         {
-            count++;
+            count++; // чтобы сократить размерность массива считаем количество элементов
         }
     }
 
